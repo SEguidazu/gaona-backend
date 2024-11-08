@@ -46,7 +46,7 @@
     "price": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "decimal",
@@ -68,7 +68,7 @@
     "unit_price": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "decimal"
@@ -79,7 +79,32 @@
           "localized": true
         }
       },
-      "type": "uid"
+      "type": "uid",
+      "required": true
+    },
+    "unit_per_box": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer"
+    },
+    "unit_per_base": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer"
+    },
+    "base_per_pallet": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer"
     }
   }
 }
